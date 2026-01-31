@@ -18,7 +18,9 @@ final class StrongCopyTests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-        XCTAssertTrue(true, "This test should always pass")
+        // You can replace this test with real tests for your application logic.
+        let app = Application()
+        XCTAssertNotNil(app, "Application should be instantiable")
     }
     
     func testApplicationInitialization() throws {
